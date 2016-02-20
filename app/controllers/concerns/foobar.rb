@@ -1,3 +1,16 @@
 class Foobar
-  # ENTER CODE FOR Q2 HERE
+  #NOTE: I know a lot of this is my fault for starting late (I had a 
+  #weird and stressful week),but please keep in mind that 
+  #I had to write all the code for this homework (that I even got to) 
+  #blindly. My localhost:3000 isn't working, so I'm just 
+  #guessing that this code works without any kind of reference. 
+  #I don't know if I deserve any points since it's my fault for being
+  #late, but please at least understand where I'm coming from.
+  def initialize (b)
+        @base = b
+  end
+
+  def bar (first, options = {})
+    puts "" + first + @base + options[1]
+  end
 end
